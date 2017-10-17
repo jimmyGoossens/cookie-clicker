@@ -2,7 +2,8 @@ var image = document.getElementById("image");
 
 var score = 0;
 var timeMe = 1;
-var clickMe=1;
+var clickMe = 1;
+var price = 50;
 
 var scoreHtml = document.getElementById("scoreHtml");
 var multi = document.querySelector(".me");
@@ -11,7 +12,7 @@ var multi = document.querySelector(".me");
 image.addEventListener("click", function() {
 
 
-  score = score + (1*clickMe);
+  score = score + (1 * clickMe);
 
   scoreHtml.innerHTML = score;
 
@@ -19,13 +20,19 @@ image.addEventListener("click", function() {
 });
 
 multi.addEventListener("click", function() {
-  timeMe = timeMe + 2;
-  clickMe= clickMe+2
+  if (score >= price) {
+    score = score - price;
+    price = Math.round(price * 5);
+    timeMe = timeMe * 2;
+    clickMe = clickMe * 2;
 
+  } else {
+    alert("you don't have enought cookies!!!");
+  }
 });
 
 var yolo = function() {
-  score = score + (1*timeMe);
+  score = score + (1 * timeMe);
 
   scoreHtml.innerHTML = score;
 
