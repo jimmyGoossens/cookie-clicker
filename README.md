@@ -8,7 +8,7 @@
 - Jimmy
 
 ## Projet terminé
-
+le 18/10/2017
 ## Raison
 
 Ce projet à été réalisé dans un but pédagogique afin de s'entrainer à l'élaboration d'un projet en équipe.
