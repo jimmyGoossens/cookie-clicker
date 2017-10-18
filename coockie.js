@@ -16,8 +16,8 @@ var multiAuto = 1;
 
 multiTwo.innerHTML = "Clique X2 (" + prix[0] + ")"+" achat:"+multiTwoNbr;
 multiFive.innerHTML = "Clique X5 (" + prix[1] + ")"+" achat:"+multiFiveNbr;
-reduxTwo.innerHTML = "Clique X2 (" + prix[2] + ")"+" achat:"+reduxTwoNbr;
-reduxFive.innerHTML = "Clique X5 (" + prix[3] + ")"+" achat:"+reduxFiveNbr;
+reduxTwo.innerHTML = "Cookie Time X2 (" + prix[2] + ")"+" achat:"+reduxTwoNbr;
+reduxFive.innerHTML = "Cookie Time X5 (" + prix[3] + ")"+" achat:"+reduxFiveNbr;
 
 function addScoreClick() {
   score += multiClic;

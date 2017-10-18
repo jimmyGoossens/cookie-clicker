@@ -1,10 +1,13 @@
 *{
-    border: solid 1px;
+   
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
 
+body{
+    background-color: #FDEBE1;
+}
 @keyframe anim {
     
     
@@ -15,10 +18,79 @@ header{
     height: 10vh;
     
 }
+
+h1{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 50px;
+}
+
+h2{
+
+    display: block;
+    width: 200px;
+    height: 100px;
+    background-color: #EB5B0C;
+    font-family: 'Puritan', sans-serif;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    border-radius:15px;
+    margin-bottom: auto;
+    margin-top: auto;
+    padding: 15px;
+}
+.scor_2{
+    border-radius: 20px;
+    width: 600px;
+    height: 150px;
+    padding: 25px;
+    background: url('X5.jpg') ;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+.light{
+    width: 600px;
+    height: 150px;
+    padding: 25px;
+    border-radius: 20px;
+    background: url('div5.jpg') 100%;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+.black{
+    border-radius: 20px;
+    width: 600px;
+    height: 150px;
+    padding: 25px;
+    background: url('X2.png') 100%;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+.box{
+    border-radius: 20px;
+    width: 600px;
+    height: 150px;
+    padding: 25px;
+    background: url('candy.jpg') 100%;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
+
+.main-cookie{
+    position: absolute;
+    float: left;
+}
+
 #container{
     width: 100%;
-    height: 90vh;
-    display:flex;
+    margin: 0 auto;
+    height: 615px;
+    background: url(animation_background.gif);
+    background-size: 10%;
+    background-position: center;
+    padding: 12px;
+    
     
 }
 section{
@@ -32,10 +104,13 @@ section{
     margin-bottom: 115px;
 }
 section img{
-    display:block;
+    display: block;
     margin-left: auto;
-    margin-right:auto;
-    height:150px;
+    margin-right: auto;
+    height: 250px;
+    transition: 0.5s;
+    width: 250px;
+    margin: 0 auto;
     
 }
 
@@ -43,13 +118,47 @@ section img:active{
    filter: brightness(0) invert(1);
     
 }
+
+section img:hover{
+    height: 300px;
+    transition:0.5s;
+}
 nav{
+    margin-left: 363px;
     width: 40%;
     height: 100%;
     
 }
 
 nav div{
+
     width:100%;
     height:20%;
 }
+
+.cook{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 30px;
+
+}
+.bla{
+    
+}
+.bui{
+    font-family: 'Fredericka the Great', cursive; 
+    font-size: 30px;
+}
+.ed{
+
+    font-family: 'Puritan', sans-serif;
+
+    font-size: 30px;
+}
+
+
+
+/*
+font-family: 'Cabin Sketch', cursive;
+font-family: 'Love Ya Like A Sister', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Puritan', sans-serif;
