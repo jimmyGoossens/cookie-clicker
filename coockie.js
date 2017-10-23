@@ -22,6 +22,8 @@ reduxFive.innerHTML = "Cookie Time X5 (" + prix[3] + ")"+" achat:"+reduxFiveNbr;
 function addScoreClick() {
   score += multiClic;
   scoreHtml.innerHTML= score;
+  image.style.opacity="0";
+   setTimeout(function(){ image.style.opacity="1"; }, 40);
 }
 
 function addScoreAuto() {
